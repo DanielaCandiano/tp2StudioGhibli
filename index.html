@@ -1,0 +1,471 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="img/museo-logo.png">
+  <title>Museo Studio Ghibli</title>
+  
+
+  <link rel="stylesheet" href="style.css"> <!-- css -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> <!-- favicon -->
+  <!-- bootstrap css/js -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css">
+
+</head>
+
+
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo-nav.png" alt="Bootstrap" width="260" height="18">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#museo">Museo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#exhibiciones">Exhibiciones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#coleccion">Colección</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pelicula"> Pelicula</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <section id="portada">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-4">
+          <img class="img-p ms-auto d-block" src="img/portada-1.jpg" alt="portada-1" width="350" height="450">
+          <h1 class="titulo-p text-end mt-3">Museo ghibli</h1>
+          <a class=" btn btn-green btn-sm " href="https://youtu.be/j9t6VZw45eQ" data-fancybox data-widht="640">PLAY</a>
+
+        </div>
+        <div class="col-xl-4">
+          <img class="img-p mx-auto d-block" src="img/portada-2.jpg" alt="portada-2" width="350" height="574">
+          <p class="parrafo-p mt-3">
+            Ven con nosotros a conocer el mundo de las obras de <strong>Studio Ghibli.</strong>
+            
+          </p>
+        </div>
+        <div class="col-xl-4">
+          <img class="img-p me-auto d-block" src="img/portada-3.jpg" alt="portada-3" width="350" height="673">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="museo">
+    <div class="container">
+      <div class="row m-2">
+        <div class="col-xl-12">
+          <hr class="division mt-5">
+        </div>
+        <div class="col-xl-5 mt-5 mb-1">
+          <img src="img/calcifer-bienvenidos.png" alt="calcifer-bienvenidos" width="375" height="570">
+        </div>
+        <div class="col-xl-6 mt-4 pd-5">
+          <h1 class="display-6 titulo-m">Studio Ghibli</h1>
+          <p>
+            Studio Ghibli es un <strong></strong>estudio japonés de animación,</strong> considerado por la crítica especializada y muchos cinéfilos como uno de los mejores estudios de animación del mundo en la actualidad.
+           El estudio es conocido por sus largometrajes animados y también ha producido varios cortometrajes, comerciales de televisión y una película para televisión. Fue fundado el <strong>15 de junio de 1985</strong> por los directores <strong>Hayao Miyazaki</strong>e <strong>Isao Takahata</strong> y el productor <strong>Toshio Suzuki</strong> , después del éxito de la película de anime de Topcraft Nausicaä del Valle del Viento (1984). Studio Ghibli también ha colaborado con estudios de videojuegos en el desarrollo visual de varios videojuegos.
+            Muchos de sus trabajos han ganado el premio <strong>Animage Anime Grand Prix,</strong> y cuatro han ganado el Premio de la Academia Japonesa de Animación del Año. Cinco de las películas de Studio Ghibli han recibido nominaciones al <strong>Óscar</strong>. El Viaje de Chihiro ganó el Oso de Oro en 2002 y el Premio de la Academia a la Mejor Película de Animación en 2003. Totoro, un personaje de Mi vecino Totoro, es la mascota del estudio.
+
+          </p>
+          
+          
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="exhibiciones">
+    <div class="container">
+      <div class="row d-flex align-items-center pt-5">
+        <div class="col-xl-2">
+          <hr class="division-e">
+        </div>
+        <div class="col-xl-3 text-center ">
+          <h1>Exhibiciones</h1>
+        </div>
+        <div class="col-xl-7">
+          <hr class="division-e">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xl-4 mt-5">
+          <img class="rounded-4" src="img/galeria1.jpg" alt="galeria1" width="385" height="510">
+          <h3 class="fs-5 mt-2">"El Salón Central"</h3>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-ex btn-sm rounded-2" data-bs-toggle="modal" data-bs-target="#exhibicion-1">
+            Ver más...
+          </button>
+          <!-- Modal -->
+          <div class="modal fade" id="exhibicion-1" tabindex="-1" aria-labelledby="exhibicion-1Label"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exhibicion-1Label">"El Salón Central"</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    Aquí hay un imponente espacio abierto que se extiende a lo largo de toda la altura del Museo. En la cúpula de cristal del centro, una ballena amarilla nada en el océano y las aspas de un ventilador gigante giran sobre su cabeza. Brillantes canicas de vidrio coloreado se encajan en los herrajes de las escaleras y pasamanos. Recorriendo toda la habitación de abajo hacia arriba,<strong> descubrirá un laberinto de escaleras de caracol, pasajes con puentes y terrazas colgantes.</strong> Este maravilloso espacio te transporta al <strong>mundo de Hayao Miyazaki</strong> y los extraños edificios que a menudo aparecen en sus películas. Aquí puedes verlos y sentirlos por ti mismo. Haga una pausa antes de ingresar a las salas de exhibición y encuentre sus propios lugares secretos favoritos
+                  </p>
+                  
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-pink" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-5 mt-5 ">
+          <img class="rounded-4" src="img/galeria2.jpg" alt="galeria2" width="855" height="510">
+          <h3 class="fs-5 mt-2">"El autobús gato"</h3>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-ex btn-sm rounded-2" data-bs-toggle="modal" data-bs-target="#exhibicion-2">
+            Ver más...
+          </button>
+          <!-- Modal -->
+          <div class="modal fade" id="exhibicion-2" tabindex="-1" aria-labelledby="exhibicion-2Label"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exhibicion-2Label">"El autobús Gato"</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    El <strong>Cat Bus</strong> te está esperando en una habitación del segundo piso. Debe ser el sueño de todos tocar y viajar en el Cat Bus. Para hacer realidad este deseo, hicimos una habitación con un Cat Bus real. Si recuerdas <strong>el Gato Autobús de "Mi Vecino Totoro"</strong>, probablemente hayas soñado con tocar su pelaje esponjoso. Ahora puedes hacerlo. Junto al Cat Bus, un montón de Dust Bunnies negros como el hollín te están esperando para jugar con ellos. Queríamos hacer el Cat Bus tan grande como en la película, pero como no cabía en el museo, terminamos reduciéndolo un poco.
+
+                    El Cat Bus es solo para niños de escuela primaria y menores <strong>(menores de 12 años).</strong>
+                  </p>
+        
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-pink" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  
+  </section>
+
+
+    
+
+  
+  <section id="atracciones">
+    <div class="container">
+      <div class="row">
+      </div>
+      <div class="row">
+          <div class="col-12">
+              <h1 class="display-6 text-center mt-5"><img src="img/bichitos.spirited-away.png" alt="bichitos" width="54" height="44"> Otras atracciones <img src="img/bichitos.spirited-away.png" alt="bichitos" width="54" height="44"></h1>
+          </div>
+          <div class="col-xl-3 mx-auto shadow-lg p-3 rounded-4 my-5">
+              <h3 class="fw-light text-center display-5 cards">Tri Hawks</h3>
+              <img class="rounded-4 img-fluid" src="img/tri-hawks.jpg" alt="1">
+              
+              
+              <button type="button" class="btn btn-primary btn-sm mt-3" data-bs-toggle="modal" data-bs-target="#cuadropaisaje1" >
+                  Leer más
+              </button>
+
+              
+              <div class="modal fade" id="cuadropaisaje1" tabindex="-1" aria-labelledby="cuadropaisaje1Label"
+                  aria-hidden="true">
+                  <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                          <div class="modal-header">
+                              <h1 class="modal-title fs-5" id="cuadropaisaje1Label">Tri Hawks</h1>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                  aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                              <p>TRI HAWKS" (un juego de palabras con el nombre de la ciudad "Mi-taka" - literalmente 3-halcones - donde se encuentra el museo) es la sala de lectura dentro del Museo Ghibli. Fue creada para comunicar el deseo del Museo de que los niños vean , tocar y sentir cosas extrañas y misteriosas a través de los libros.
+
+                                Los libros especialmente recomendados por Hayao Miyazaki y el Museo se pueden encontrar aquí para que los niños hojeen libremente.</p>
+                          </div>
+                          <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+          <div class="col-xl-3 mx-auto shadow-lg p-3 rounded-4 my-5">
+            <h3 class="fw-light text-center display-5">Straw Hat Café</h3>
+            <img class="rounded-4 img-fluid" src="img/straw-hat-cafe.jpg" alt="1">
+            
+            
+            <button type="button" class="btn btn-primary btn-sm mt-3" data-bs-toggle="modal" data-bs-target="#cuadropaisaje2">
+                Leer más
+            </button>
+
+            
+            <div class="modal fade" id="cuadropaisaje2" tabindex="-1" aria-labelledby="cuadropaisaje2Label"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="cuadropaisaje2Label">Straw Hat Café</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+
+                            <p>Rodeado por algunos de los raros pinos rojos de Mitaka y contra la pared de color naranja brillante y los marcos de las ventanas rojas del edificio que lo alberga, la terraza del Straw Hat Café le brinda un ambiente abierto al aire libre donde puede relajarse y disfrutar del entorno natural. del Parque Inokashira. Hay un lavabo decorado con azulejos de colores justo al lado de la terraza del Café para que pueda lavarse las manos antes de la hora de comer.
+
+                              El Café ofrece chuletas de cerdo empanizadas, perros calientes, postres dulces y bebidas, todo hecho a mano en su cocina y perfecto para relajarse después de un día explorando el museo.
+                              Experimente el cambio de estaciones y disfrute del paso lento del tiempo en el Café.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-3 mx-auto shadow-lg p-3 rounded-4 my-5">
+          <h3 class="fw-light text-center display-5">Mamma Aiuto!</h3>
+          <img class="rounded-4 img-fluid" src="img/mamma-aiuto!.jpg" alt="1">
+          
+          
+          <button type="button" class="btn btn-primary btn-sm mt-3" data-bs-toggle="modal" data-bs-target="#cuadropaisaje3">
+              Leer más
+          </button>
+
+          
+          <div class="modal fade" id="cuadropaisaje3" tabindex="-1" aria-labelledby="cuadropaisaje3Label"
+              aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="cuadropaisaje2Label">Mamma Aiuto!</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal"
+                              aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+
+                          <p>La tienda del museo "MAMMA AIUTO!" lleva el nombre de los piratas del cielo en "Porco Rosso". Significa "¡Mamá, ayúdame!" en italiano.
+
+                            Aquí, en esta tienda, encontrará sus productos de personajes favoritos de Studio Ghibli junto con artículos de regalo originales del Museo.
+                            
+                            Los escaparates están llenos de cosas bonitas, inesperadas y completamente fuera de lo común. Dedique algún tiempo a mirar a su alrededor... puede que descubra algo especial para usted.</p>
+                      </div>
+                      <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+  </section>
+
+
+  <section>
+
+    <section id="coleccion">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-12">
+            <hr class="division mt-2">
+          </div>
+          <div class="col-xl-12 text-center">
+            <h1 class="display-6 titulo-s mt-3">Colección</h1>
+            <p class="mt-1">Hecha un vistazo a lo que tenemos para ofrecerte</p>
+    
+    <div id="carouselExampleControls" class="carousel slide col-xl-12" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active ">
+          <img src="img/img-1-carrusel.jpg" class="d-block w-100 rounded-4" alt="img-1">
+        </div>
+        <div class="carousel-item">
+          <img src="img/img-2-carrusel.jpg" class="d-block w-100 rounded-4" alt="img-2">
+        </div>
+        <div class="carousel-item">
+          <img src="img/img-3-carrusel.jpg" class="d-block w-100 rounded-4" alt="img-3">
+        </div>
+        <div class="carousel-item">
+          <img src="img/img-4-carrusel.jpg" class="d-block w-100 rounded-4" alt="img-4">
+        </div>
+        <div class="carousel-item">
+          <img src="img/img-5-carrusel.jpg" class="d-block w-100 rounded-4" alt="img-5">
+        </div>
+        <div class="carousel-item">
+          <img src="img/img-6-carrusel.jpg" class="d-block w-100 rounded-4" alt="img-6">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <section id="pelicula">
+      <div class="container">
+        <div class="row d-flex align-items-center pt-5">
+          <div class="col-xl-7">
+            <hr class="division-5">
+          </div>
+          <div class="col-xl-3 text-center">
+            <h1 class="display-6">Pelicula Actual</h1>
+          </div>
+          <div class="col-xl-2">
+            <hr class="division-5">
+          </div>
+
+        
+              <div class="row">
+                <div class="col-xl-5 mt-5 mb-4 p-4">
+                  <img src="img/mei-bus.jpg" class="rounded-4" alt="mei-bus" width="435" height="412" >
+                </div>
+                <div class="col-xl-7 mt-3">
+                  <h1 class="display-6 titulo-d">Mei y el Bebé Auto-Gato </h1>
+                  <p>Mei está comiendo un caramelo en un día muy ventoso, cuando de repente aparece un torbellino y comienza a perseguirla. El torbellino resulta ser un autobús gato bebé. Mei le ofrece un caramelo al gatito y los dos se hacen amigos. Esa noche, el autobús del gato bebé visita a Mei. Dejando que Mei cabalgue dentro de él, salta hacia el cielo. Se dirigen al bosque de medianoche lleno de fantasmas. Otros autobuses de gatos, grandes y pequeños, también se han reunido. En el bosque, Mei se encuentra...
+
+                    <strong>Esta obra es una mini-secuela de la película "Mi Vecino Totoro".</strong> Una película que sigue a las estudiantes y hermanas Satsuke y Mei mientras se establecen en su casa de campo con su padre y esperan a que su madre se recupere de una enfermedad en un hospital del área. Cuando las hermanas exploran su nueva casa, descubren y hacen amistad con unos duendes juguetones, y en el bosque cercano encuentran a una enorme criatura conocida como Totoro.
+                  </p>
+                  <p>Debemos recalcar que este corto tiene una duración de <strong>13 minutos con 43 segundos</strong> direccionada y guiada por no más ni menos que <strong>Hayao Miyazaki</strong> (fundador de Studio Ghbili) y música interpretada por <strong>Joe Hisaishi.</strong>
+                  </p>
+                </div>
+              </div>
+            </div>
+        </div>
+        
+  </section>
+
+  <section id="video" >
+    <div class="container">
+        <div class="row">
+          <div>
+            <hr class="division-4 mt-4">
+          </div>
+            <div class="col-12 text-center pt-5">
+              
+                <h1 class="display-6 titulo-e "> El arte de Ghibli <img src="img/bichitos.spirited-away.png" alt="bichitos" width="54" height="44">  </h1> 
+                
+                <p class="lead mt-3">A continuación veremos partes de las películas de Ghibli, apreciando su arte y cinematografía</p>                    
+            </div>
+            <div class="col-12 col-lg-10 mx-auto shadow my-5 mt-3 p-4">
+                
+                <div class="ratio ratio-16x9">
+
+                  <iframe src="https://www.youtube.com/embed/1Jwoi0tChfw" title="El arte de Ghibli" allowfullscreen></iframe>
+              
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="imagen-museo">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center mb-4">
+        <img src="img/museo-darte-ghibli.png"  alt="museo-darte-ghibli" width="180" height="100">
+      </div>
+    </div>
+  </div>
+  
+</section>
+
+<section id="footer">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-xl-6">
+        <p class="fs-5 mt-5 mb-2 titulo-r">RECIBÍ NOTICIAS DEL MUSEO</p>
+      </div>
+      
+        
+        <div class="col-xl-6 mt-5">
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Email</label>
+            <input id="newsletter1" type="text" class="form-control formulario" placeholder="Email">
+            <button class="btn btn-primary-2" type="button">SUSCRIBIRSE</button>
+          </div>
+  
+        </div>
+        
+      
+        <div class="b-example-divider"></div>
+      
+      <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+            </a>
+            <p class="mb-3 mb-md-0">&copy; 2001-2022 Museo d´Arte Ghibli</p>
+          </div>
+      
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/ghibliarchives/"  target="_blank"><img src="img/icono-instagram.png" alt="icono-twitter" width="40" height="40"></a></li>
+            <li class="ms-3"><a class="text-muted" href="https://twitter.com/GhibliML"  target="_blank"><img src="img/icono-twitter.png" alt="icono-twitter" width="40" height="40"></a></li>
+            <li class="ms-3"><a class="text-muted" href="mailto: museum@ghibli.jp" target="_blank"><img src="img/icono-mail.png" alt="icono-mail" width="40" height="40"></a></li>
+            
+          </ul>
+        </footer>
+      </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</section>
+
+
+  
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+</body>
+
+</html>
